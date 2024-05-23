@@ -1,0 +1,15 @@
+spring:
+   datasource:
+      username: plant_store
+      password: plant_store
+      url: jdbc:mysql://localhost:3306/plant_store
+
+   jpa:
+      hibernate:
+         ddl-auto: create
+      show-sql: true
+      defer-datasource-initialization: true
+
+   sql:
+      init:
+         mode: always
